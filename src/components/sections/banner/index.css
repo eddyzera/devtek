@@ -1,0 +1,47 @@
+.banner {
+  background-image: url('../../../assets/img/section-banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 113px);
+  display: flex;
+  align-items: center;
+}
+
+.banner-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.banner-wrapper h2 {
+  font-size: 3rem;
+  color: white;
+  max-width: 900px;
+  width: 100%;
+}
+
+.banner-wrapper button {
+  appearance: button;
+  background-color: #8a2be2;
+  background-image: none;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 24px;
+  width: 200px;
+  transition: background-color .2s;
+}
+
+.banner-wrapper button:hover {
+  text-decoration: none;
+  background-color: #892be26d;
+  border-color: #892be26d;
+}
